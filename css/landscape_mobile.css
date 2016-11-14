@@ -1,0 +1,127 @@
+@media screen 
+   and (min-device-width: 320px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+  .homeButton { 
+	width: 20% !important;
+	height: auto !important; 
+	left: 0px;
+  }
+  
+  .caption_wrapper {
+    width:80% !important;
+    height:auto;
+}
+
+ #caption_title {
+   font:Arial, Helvetica, sans-serif;
+   letter-spacing: .75px;
+   font-size: 20px;	
+}
+
+.description {
+    font:"Arial Black", Gadget, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.contact_button {display:none !important;}
+.schedule_button {display:none !important;}
+.restart_button {
+    position:fixed;
+    z-index: 1;
+    right: 1%;
+    top: 69%;
+	width:12em;
+	min-height:2em;
+	
+}
+.restart_button {
+    letter-spacing: 1px;
+    font-size: 16px;
+	overflow:hidden;
+	word-wrap:normal;
+    white-space: nowrap;
+	left: 4%;
+	padding-right:10px;
+
+}
+.restart_button:hover{
+	box-shadow: inset 0 0 0 1.5px rgba(167,25,48,1);
+    letter-spacing: 1px;
+    font-size: 16px;
+	word-wrap:normal;
+    white-space: nowrap;
+}
+.hide_button{display: none !important;}
+.menu{display: none !important;}
+#map{display: none !important;}
+.map_button{display: none !important;}
+.citem {display: none !important;}
+.tipsy { display: none !important; }
+.tipsy-inner { display: none !important; }
+.tipsy-inner { display: none !important; }
+#gravity { display: none !important; }
+#gravity td { display: none !important; }
+#gravity a:hover { display: none !important; }
+
+.switch_button  {
+    position: fixed;
+    z-index:2000;
+	right: 20%;
+    top: 50%;
+}
+.athletics_button {
+    position: fixed;
+    z-index:2000;
+    right: 20%;
+    top: 30%;
+}
+.academics_button {
+  position: fixed;
+    z-index:2000;
+	left: 20%;
+    top: 30%;
+}
+.sl_button {
+    position: fixed;
+    z-index:2000;
+	left: 20%;
+    top: 50%;
+}
+
+.athletics_button, .academics_button, .sl_button, .switch_button  {
+	overflow: hidden;
+	word-wrap:normal;
+    letter-spacing: .8px;
+    font-size: 12px;
+	width:11em;
+}
+
+.athletics_button:hover, .academics_button:hover, .sl_button:hover, .switch_button:hover{
+    box-shadow: inset 0 0 0 1.5px #000;
+    font-size: 12px;
+	width:11em;
+    
+}
+
+.facebook_button{
+display: none !important;
+
+ } 
+ 
+ .twitter_button{
+display: none !important;
+
+ } 
+ 
+ .google_button{
+display: none !important;
+
+ } 
+ .media_button{
+display: none !important;
+
+ } 
+
+ }
